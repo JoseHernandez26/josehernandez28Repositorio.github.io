@@ -1,0 +1,557 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600&family=Poppins:wght@200;300;400;600;800&family=Roboto&family=Roboto+Mono:wght@400;500&display=swap" rel="stylesheet">
+    
+    <!-- ICONS -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Argon CSS -->
+    <link type="text/css" href="css/argon-design-system.min.css" rel="stylesheet">
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
+    <!-- Personal  Styling -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <title>Jose Alberto Hernandez Ordoñez</title>
+  </head>
+  <body>
+<!-- ------------- HEADER -------------------->
+    <header class="header" id="header">
+        <nav class="nav container navbar-expand-lg">
+            <a href="#" class="nav__logo navbar-brand ml-3">Jose Alberto Hernandez Ordoñez</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-default" aria-controls="navbar-default" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list grid">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link">
+                            <i class="uil uil-estate nav__icon"></i>Home
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">
+                            <i class="uil uil-user nav__icon"></i>About
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <i class="uil uil-file nav__icon"></i>Skills
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#qualifications" class="nav__link">
+                            <i class="uil uil-diary nav__icon"></i>Qualification
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#portfolio" class="nav__link">
+                            <i class="uil uil-scenery nav__icon"></i>Portfolio
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">
+                            <i class="uil uil-message nav__icon"></i>Contact Us
+                        </a>
+                    </li>
+                </ul>
+                <i class="uil uil-times nav__close" id="nav-close"></i>
+            </div>
+
+            <div class="nav__btns">
+                <!-- THEME CHANGING BUTTONS -->
+                <i data-mode= "dark" class="uil uil-moon moon-change-theme" id="theme-button"></i>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="uil uil-apps"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+<!-- ============== MAIN =============== -->
+    <main class="main">
+
+    <!-- ------------- HOME -------------------->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+
+                <div class="home__content grid">
+                    <div class="home__social">
+                        <a href="https://www.linkedin.com/in/jose-h-b13765235/" target="_blank" class="home__social-icon" id="myLinkedIn">
+                            <i class="uil uil-linkedin-alt"></i>
+                        </a>
+
+
+                        <a href="https://github.com/JoseHernandez26/JoseHernandez26.github.io" target="_blank" class="home__social-icon" id="myGithub">
+                            <i class="uil uil-github-alt"></i>
+                        </a>
+
+
+                      
+                    </div>
+                </div>
+
+                <div class="home__data">
+                    <small class="home__welcome s-color"> Bienvenido a mi portafolio! </small>
+                    <h1 class="home__title"> Hola! </h1>
+                    <div id="typewriter"></div>
+                    <h3 class="home__subtitle" id="home-bio">Soy un estudiante de Ingenieria en sistemas, apasionado en aprender mas de la programación y el ambiente tecnológico </h3>
+                    <a href="#contact" class="button button--flex">
+                        Contactame <i class="uil uil-message button__icon"></i>
+                    </a>
+                </div>
+
+            </div>
+
+            <div class="home__scroll">
+                <a href="#about" class="home__scroll-button button--flex">
+                    <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+                    <!-- <span class="home__scroll-name"> Scroll Down </span>
+                    <i class="uil uil-arrow-down home__scroll-arrow"></i> -->
+                </a>
+            </div>
+        </section>
+
+    <!-- ------------- ABOUT ME -------------------->
+        <section class="about section" id="about">
+            <h2 class="section__title">Acerca de mi</h2>
+            <span class="section__subtitle"> Una Breve introduccion </span>
+
+            <div class="about__container container grid">
+                <img src="assets\img\profile-pic.png" alt="my achievement photo" class="about__img">
+
+                <div class="about__data">
+                    <p class="about__description" id="home-about"> 
+Estudiante de programacion de sitios web, aplicaciones de escritorio, y todo lo relacionado al mundo de la programación como son los frameworks, Api´s y lenguajes de consultas a bases de datos.
+                    </p>
+                </div>
+
+                <div class="about__info">
+                    <div>
+                        <span class="about__info-title"> 04+ </span>
+                        <span class="about__info-name"> años <br> Experiencia académica </span>
+                    </div>
+
+                    <div>
+                        <span class="about__info-title"> 4+ </span>
+                        <span class="about__info-name"> Completados <br> Projectos </span>
+                    </div>
+
+                
+                </div>
+
+                <div class="about__buttons">
+                    <a href="assets/file/CV.pdf" download="my_CV" target="_blank" class="button button--flex">
+                        Download CV <i class="uil uil-download-alt button__icon"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+    <!-- ------------- Skills-------------------->
+        <section class="skills section" id="skills">
+            <h2 class="section__title"> Habilidades </h2>
+            <span class="section__subtitle"> Habilidades  </span>
+
+            <div class="skills__container container grid">
+                <div class="row" id="skillset_container">
+                    <!-- Skill 1 -->
+                    <div class="skills__container-card">
+                        <div class="card_skill shadow2">
+                            <div class="imgBx">
+                                <img src="https://res.cloudinary.com/bjha/image/upload/v1627831745/skillset%20logos/HTML_5-595b40b65ba036ed117d4260_fnyo1z.svg" alt="HTML logo">
+                            </div>
+                            <div class="contentBx">
+                                <h2> HTML </h2>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Skill 2 -->
+                    <div class="skills__container-card">
+                        <div class="card_skill shadow2">
+                            <div class="imgBx">
+                                <img src="https://res.cloudinary.com/bjha/image/upload/v1627831742/skillset%20logos/Css3-595b40b65ba036ed117d3eb8_jiqifm.svg" alt="HTML logo">
+                            </div>
+                            <div class="contentBx">
+                                <h2> CSS </h2>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Skill 3 -->
+                    <div class="skills__container-card">
+                        <div class="card_skill shadow2">
+                            <div class="imgBx">
+                                <img src="https://res.cloudinary.com/bjha/image/upload/v1627831744/skillset%20logos/javascript-seeklogo.com_wthmgd.svg" alt="HTML logo">
+                            </div>
+                            <div class="contentBx">
+                                <h2> Javascript </h2>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- Skill 4 -->
+                    <div class="skills__container-card">
+                        <div class="card_skill shadow2">
+                            <div class="imgBx">
+                                <img src="https://res.cloudinary.com/bjha/image/upload/v1627831742/skillset%20logos/bootstrap-5-seeklogo.com_rz32ih.svg" alt="HTML logo">
+                            </div>
+                            <div class="contentBx">
+                                <h2> Bootstrap </h2>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- Skill 5 -->
+                    <div class="skills__container-card">
+                        <div class="card_skill shadow2">
+                            <div class="imgBx">
+                                <img src="https://res.cloudinary.com/bjha/image/upload/v1627831745/skillset%20logos/python-seeklogo.com_sbuevg.svg" alt="HTML logo">
+                            </div>
+                            <div class="contentBx">
+                                <h2> Python </h2>
+                            </div>
+                        </div>
+                    </div>
+          
+
+                    <!-- Skill 6 -->
+                    <div class="skills__container-card">
+                        <div class="card_skill shadow2">
+                            <div class="imgBx">
+                                <img src="https://res.cloudinary.com/bjha/image/upload/v1627831743/skillset%20logos/git-seeklogo.com_eqv1dl.svg" alt="HTML logo">
+                            </div>
+                            <div class="contentBx">
+                                <h2> Git </h2>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- Skill 7 -->
+                    <div class="skills__container-card">
+                        <div class="card_skill shadow2">
+                            <div class="imgBx">
+                                <img src="https://res.cloudinary.com/bjha/image/upload/v1627831742/skillset%20logos/github-seeklogo.com_yhhbou.svg" alt="HTML logo">
+                            </div>
+                            <div class="contentBx">
+                                <h2> Github </h2>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Skill 8 -->
+                    <div class="skills__container-card">
+                        <div class="card_skill shadow2">
+                            <div class="imgBx">
+                                <img src="https://res.cloudinary.com/bjha/image/upload/v1627831746/skillset%20logos/visual-studio-code-seeklogo.com_ps85dh.svg" alt="HTML logo">
+                            </div>
+                            <div class="contentBx">
+                                <h2> VS Code </h2>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <!-- Skill 9 -->
+                    <div class="skills__container-card">
+                        <div class="card_skill shadow2">
+                            <div class="imgBx">
+                                <img src="https://seeklogo.com/images/J/java-logo-7F8B35BAB3-seeklogo.com.png" alt="HTML logo">
+                            </div>
+                            <div class="contentBx">
+                                <h2> Java </h2>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Skill 10 -->
+                    <div class="skills__container-card">
+                        <div class="card_skill shadow2">
+                            <div class="imgBx">
+                                <img src="https://seeklogo.com/images/M/microsoft-net-framework-logo-B9BA1A3DA1-seeklogo.com.png" alt="HTML logo">
+                            </div>
+                            <div class="contentBx">
+                                <h2> .Net </h2>
+                            </div>
+                        </div>
+                    </div>
+
+   
+
+                    <!-- Skill 16 -->
+                    <div class="skills__container-card">
+                        <div class="card_skill shadow2">
+                            <div class="imgBx">
+                                <img src="https://seeklogo.com/images/C/c-sharp-c-logo-02F17714BA-seeklogo.com.png" alt="HTML logo">
+                            </div>
+                            <div class="contentBx">
+                                <h2> C# </h2>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Skill 17 -->
+                    <div class="skills__container-card">
+                        <div class="card_skill shadow2">
+                            <div class="imgBx">
+                                <img src="https://seeklogo.com/images/R/react-logo-7B3CE81517-seeklogo.com.png" alt="HTML logo">
+                            </div>
+                            <div class="contentBx">
+                                <h2> React js</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+  
+
+    <!-- ------------- PORTFOLIO -------------------->
+    <section class="portfolio section" id="portfolio">
+        <h2 class="section__title">Portfolio</h2>
+        <span class="section__subtitle"> My most recent works </span>
+
+        <div class="blog-slider">
+            <div class="blog-slider__wrp swiper-wrapper">
+                
+                <!-- For portfolio item 1 -->
+                <div class="blog-slider__item swiper-slide">
+                    <div class="blog-slider__img">
+                        <img src="img\180328945-8600bccb-d96a-4cf7-945f-753ab626c02c.png" alt="Twitter type SNS ">
+                    </div>
+
+                    <div class="blog-slider__content">
+                        <span class="blog-slider__code"> Jul 30, 2022</span>
+                        <div class="blog-slider__title">Library Management Application </div>
+                        <div class="blog-slider__text"> Home Page Library management is a web application that allows managing of the lends of books in a library: Functions: Listing Books, Store Books, Lend Books, Update Book, Store records of lends per each book and retrieve details of books.</div>
+                        <a href="https://github.com/JoseHernandez26/LibraryManagementApplication" target="_blank" class="button blog-slider__button button--flex"> 
+                            Demo
+                            <i class="uil uil-play button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- For portfolio item 2 -->
+                <div class="blog-slider__item swiper-slide">
+                    <div class="blog-slider__img">
+                        <img src="img\ta.png" alt="Portfolio item">
+                    </div>
+
+                    <div class="blog-slider__content">
+                        <span class="blog-slider__code">  Jul 21, 2022</span>
+                        <div class="blog-slider__title">GestorDeTallerAutomotriz </div>
+                        <div class="blog-slider__text"> Administración de Taller automotriz. Diseñar e implementar una aplicación web que realice la gestión de un taller de automotriz. La aplicación deberá tener los siguientes módulos:
+                            • Ordenes de reparación recibidas. • Ordenes de reparación en proceso. • Ordenes de reparación completadas. • Ordenes de reparación canceladas.
+                            
+                             </div>
+                        <a href="https://github.com/JoseHernandez26/GestorDeTallerAutomotriz/blob/master/FuncionalidadesPrincipales.md" target="_blank" class="button blog-slider__button button--flex"> 
+                            Demo
+                            <i class="uil uil-play button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- For portfolio item 3 -->
+                <div class="blog-slider__item swiper-slide">
+                    <div class="blog-slider__img">
+                        <img src="img/Manga.png" alt="Portfolio item">
+                    </div>
+
+                    <div class="blog-slider__content">
+                        <span class="blog-slider__code">Dic 22, 2022</span>
+                        <div class="blog-slider__title">Manga Website</div>
+                        <div class="blog-slider__text"> Sitio web en construcción para comprar  manga, trabajado con React & Java/Spring.</div>
+                        <a href="https://youtu.be/ZUn_3lAKWZM" target="_blank" class="button blog-slider__button button--flex"> 
+                            Demo
+                            <i class="uil uil-play button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- For portfolio item 4 -->
+                <div class="blog-slider__item swiper-slide">
+                    <div class="blog-slider__img">
+                        <img src="img/Tutoriales.PNG" alt="Portfolio item">
+                    </div>
+
+                    <div class="blog-slider__content">
+                        <span class="blog-slider__code">Ene 22, 2022</span>
+                        <div class="blog-slider__title">Tutorial Web App</div>
+                        <div class="blog-slider__text"> Aplicacion web que me permite brindar informacion de tutoriales de mi canal de youtube y a la vez administrarlos, trabajado en c#/.net como framework con .</div>
+                        <a href="https://youtu.be/ZhQAPrhKPq8" target="_blank" class="button blog-slider__button button--flex"> 
+                            Demo
+                            <i class="uil uil-play button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+             
+                
+                <div class="blog-slider__pagination"></div>
+            </div>
+        </div>
+
+    </section>
+        </section>
+
+    <!-- ------------- CONTACT US -------------------->
+        <section class="contact section" id="contact">
+            <h2 class="section__title"> Contact Me </h2>
+            <span class="section__subtitle"> Get in touch</span>
+
+            <div class="row mt-lg-6 justify-content-center contact_mail">
+                <!-- Contact information -->
+                <div class="col-lg-6 mx-lg-0 mx-2 contact__container container">
+                    <div class="contact__information">
+                        <i class="uil uil-phone contact__icon"></i>
+
+                        <div>
+                            <h3 class="contact__title">Call Me</h3>
+                            <span class="contact__subtitle">+50662570004</span>
+                        </div
+                    </div>
+
+                    <div class="contact__information">
+                        <i class="uil uil-envelope contact__icon"></i>
+
+                        <div>
+                            <h3 class="contact__title">E-mail</h3>
+                            <span class="contact__subtitle">josealbertohernandez254@gmail.com</span>
+                        </div>
+                    </div>
+
+                    <div class="contact__information">
+                        <i class="uil uil-location-pin-alt contact__icon"></i>
+                        <div>
+                            <h3 class="contact__title">Address</h3>
+                            <span class="contact__subtitle">Liberia,Guanacaste Costa Rica</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FORM -->
+                <div class="col-lg-6 pl-lg-4 mt-lg-0 mt-6 contact-form" id="message-me">
+                    <h2 class="contact__title"> Interested to work together? - <span> Let's talk </span></h2>
+
+                    <form action="#" method="POST" class="cf">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <input type="text" name="message-name" class="form-control form__color mb-30 cf" placeholder="Your Name">
+                            </div> 
+                            <div class="col-lg-6">
+                                <input type="email" name="message-email" class="form-control form__color mb-30 cf" placeholder="Your Email">
+                            </div>
+                            <div class="col-12">
+                                <input type="text" name="message-subject" class="form-control form__color mb-30 cf" placeholder="Subject">
+                            </div>
+                            <div class="col-12">
+                                <textarea name="message" class="form-control form__color mb-30 cf" cols="30" rows="5" placeholder="Your Message"></textarea>
+                            </div>
+                            <div class="col-12">
+                                <button type="submit" class="button button--flex send-message form_button">
+                                    Send Message
+                                    <i class="uil uil-message button__icon"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+<!-- ------------- FOOTER -------------------->
+    <footer class="footer">
+        <div class="footer__bg">
+            <div class="footer__container container grid">
+
+                <div>
+                    <h1 class="footer__title"> Jose Alberto Hernandez Ordoñez</h1>
+                    <span class="footer__subtitle"> Estudiante de Ingenieria en sistemas</span>
+                </div>
+
+                <ul class="footer__links">
+                    <li>
+                        <a href="#about" class="footer__link"> About Me</a>
+                    </li>
+
+                    <li>
+                        <a href="#portfolio" class="footer__link"> My Portfolio</a>
+                    </li>
+
+                    <li>
+                        <a href="#contact" class="footer__link"> Contact Me</a>
+                    </li>
+                </ul>
+
+                <div class="footer__socials">
+                    <a href="https://www.linkedin.com/in/jose-h-b13765235/" target="_blank" class="footer__social" id="myLinkedIn">
+                        <i class="uil uil-linkedin-alt"></i>
+                    </a>
+
+              
+                    <a href="https://github.com/JoseHernandez26/JoseHernandez26.github.io" target="_blank" class="footer__social" id="myGithub">
+                        <i class="uil uil-github-alt"></i>
+                    </a>
+
+                </div>
+            </div>
+
+            <p class="footer__copy">&#169; JoseHernandez26. All rights reserved</p>
+        </div>
+    </footer>
+  
+
+<!-- ------------- SCROLL TOP -------------------->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="uil uil-arrow-up scrollup__icon"></i>
+    </a>
+
+
+
+
+
+
+
+    <!-- Core -->
+    <script src="js/core/jquery.min.js"></script>
+    <script src="js/core/popper.min.js"></script>
+    <script src="js/core/bootstrap.min.js"></script>
+
+    <!-- Argon JS -->
+    <script src="js/argon-design-system.js"></script>
+
+    <!--  Typewriter CSS Effect -->
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Self Script -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
